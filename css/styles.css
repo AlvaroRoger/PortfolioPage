@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #fed136;
+  --primary: #3ba7ff;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -2443,7 +2443,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #fed136;
+  background-color: #3654fe;
   border-color: #fed136;
 }
 .btn-primary:hover {
@@ -10145,7 +10145,7 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
+  padding-top: 5rem;
   padding-bottom: 6rem;
   text-align: left;
   color: #fff;
