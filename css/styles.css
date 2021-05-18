@@ -24,11 +24,11 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #3ba7ff;
+  --primary: #5164ec;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
-  --warning: #fed136;
+  --warning: #5164ec;
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
@@ -10145,7 +10145,7 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 5rem;
+  padding-top: 2rem;
   padding-bottom: 6rem;
   text-align: left;
   color: #fff;
