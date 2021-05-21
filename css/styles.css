@@ -6138,6 +6138,7 @@ a.close.disabled {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
+  filter: invert(1);
   display: inline-block;
   width: 20px;
   height: 20px;
