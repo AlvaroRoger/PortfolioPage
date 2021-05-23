@@ -24,8 +24,8 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #5164ec;
-  --secondary: #6c757d;
+  --primary: #45607C;
+  --secondary: #B4C5E4;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #5164ec;
@@ -1718,21 +1718,21 @@ pre code {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #fff2c7;
+  background-color: var(--primary);
 }
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #fee796;
+  border-color: var(--primary);
 }
 
 .table-hover .table-primary:hover {
-  background-color: #ffecae;
+  background-color: var(--primary);
 }
 .table-hover .table-primary:hover > td,
 .table-hover .table-primary:hover > th {
-  background-color: #ffecae;
+  background-color: var(--primary);
 }
 
 .table-secondary,
@@ -1798,21 +1798,21 @@ pre code {
 .table-warning,
 .table-warning > th,
 .table-warning > td {
-  background-color: #fff2c7;
+  background-color: var(--primary);
 }
 .table-warning th,
 .table-warning td,
 .table-warning thead th,
 .table-warning tbody + tbody {
-  border-color: #fee796;
+  border-color: var(--primary);
 }
 
 .table-hover .table-warning:hover {
-  background-color: #ffecae;
+  background-color: var(--primary);
 }
 .table-hover .table-warning:hover > td,
 .table-hover .table-warning:hover > th {
-  background-color: #ffecae;
+  background-color: var(--primary);
 }
 
 .table-danger,
@@ -2455,12 +2455,12 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #3654fe;
+  background-color: var(--primary);
   border-color: var(--primary);
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #fec810;
+  background-color: var(--secondary); /* BUTTON COLOR*/
   border-color: #fec503;
 }
 .btn-primary:focus, .btn-primary.focus {
@@ -4871,7 +4871,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .alert-primary {
   color: #846d1c;
   background-color: #fff6d7;
-  border-color: #fff2c7;
+  border-color: var(--primary);
 }
 .alert-primary hr {
   border-top-color: #ffecae;
@@ -4919,7 +4919,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .alert-warning {
   color: #846d1c;
   background-color: #fff6d7;
-  border-color: #fff2c7;
+  border-color: var(--primary);
 }
 .alert-warning hr {
   border-top-color: #ffecae;
@@ -5222,10 +5222,10 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .list-group-item-primary {
   color: #846d1c;
-  background-color: #fff2c7;
+  background-color: var(--primary);
 }
 .list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {
-  color: #846d1c;
+  color: 6f42c1;
   background-color: #ffecae;
 }
 .list-group-item-primary.list-group-item-action.active {
@@ -5278,7 +5278,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .list-group-item-warning {
   color: #846d1c;
-  background-color: #fff2c7;
+  background-color: var(--primary);
 }
 .list-group-item-warning.list-group-item-action:hover, .list-group-item-warning.list-group-item-action:focus {
   color: #846d1c;
@@ -10398,7 +10398,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(254, 209, 54, 0.9);
+  background: var(--secondary); /* PORTFOLIO COLOR*/ 
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -10719,4 +10719,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   left: 50%;
   margin-left: -3px;
   top: 9000;
+}
+
+.contenedor{
+  display:flex;
 }
