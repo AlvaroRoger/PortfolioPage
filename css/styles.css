@@ -289,6 +289,7 @@ button:not(:disabled),
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 1000px 500px;
+  max-height: none;
 }
 
 button::-moz-focus-inner,
